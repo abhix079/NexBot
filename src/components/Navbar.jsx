@@ -1,11 +1,7 @@
 import "./Navbar.css";
 
-import { FiSun } from "react-icons/fi";
-import { IoMoonOutline } from "react-icons/io5";
 
-
-
-function Navbar({ darkMode, handleToggle }) {
+function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-content">
@@ -18,13 +14,7 @@ function Navbar({ darkMode, handleToggle }) {
           <li>About</li>
           <li>Services</li>
           <li>Contact</li>
-          <li className="theme-toggle" onClick={handleToggle}>
-             {darkMode ? (
-            <FiSun size={22} color="#000" />
-          ) : (
-            <IoMoonOutline size={22} color="#000" />
-          )}
-          </li>
+          
         </ul>
       </div>
     </div>
