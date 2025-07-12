@@ -13,6 +13,7 @@ import sentiment from "../src/assets/sentiment.png";
 import task from "../src/assets/task.png";
 import voice from "../src/assets/voice.png";
 import aichat from "../src/assets/aichat.png";
+import SplashCursor from "./components/SplashCursor";
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
 
   return (
     <div>
+      <SplashCursor/>
       <Navbar />
       <main className="spline-container" id="home">
         <Spline scene="https://prod.spline.design/5MncJAsOy6bqU6gI/scene.splinecode" />
