@@ -33,6 +33,9 @@
 .navbar-content * {
   pointer-events: auto;
 }
+.nav-links li.active {
+  color: var(--main-color);
+}
 
 
 .logo {
